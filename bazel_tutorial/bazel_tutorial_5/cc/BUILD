@@ -5,6 +5,7 @@ cc_binary(
     srcs = ["main.cpp"],
     deps = [
         "//cc/my_lib:my_lib",
+        "@arrayfire//:arrayfire",
     ],
     visibility = ["//visibility:public"],
 )
